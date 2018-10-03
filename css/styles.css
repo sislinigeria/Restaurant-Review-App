@@ -117,8 +117,7 @@ nav h1 a {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1;
-  margin: 0 20px;
-  padding: 19px;
+  padding: 20px;
 }
 .filter-options select {
   background-color: white;
@@ -285,11 +284,4 @@ border: 2px solid #000;
 overflow: hidden;
 padding: 20px;
 background-color: #fff;
-}
-
-@media screen and (min-width:768px) {
-  .inside #maincontent {
-    display: flex;
-    flex-wrap: wrap;
-  }
 }
