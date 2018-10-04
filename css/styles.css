@@ -295,10 +295,61 @@ nav h1 a {
 }
 
 /* ====================== Media Query breakpoint ====================== */
-@media only screen and (max-width: 667px){
+@media screen and (max-width: 667px){
   .inside {
     display: flex;
     flex-direction: row;
     width: 100vw;
+  }
+  .inside header {
+    order: 0;
+    width: 100vw;
+  }
+  header nav {
+    order: 0;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+  header #breadcrumb {
+    order: 1;
+    width: 100vw;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+  .inside #map-container {
+    order: 2;
+    top: 130px;
+    width: 100vw;
+    height: 300px;
+    position: relative;
+  }
+  .inside #restaurant-container {
+    order: 3;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    padding: 140px 6px 0 0;
+    width: 100vw;
+  }
+  .inside #reviews-container {
+    margin: auto;
+    padding: 6px;
+    width: 100vw;
+  }
+  .inside #footer {
+    order: 4;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 12px;
+    width: 100vw;
+  }
+  #reviews-list {
+    width: 100vw;
+  }
+  #reviews-container h2 {
+    text-align: center;
   }
 }
