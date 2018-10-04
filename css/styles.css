@@ -18,11 +18,11 @@ ul, li {
 	color: #333;
 }
 a {
-	color: orange;
+	color: #e8761a;
 	text-decoration: none;
 }
 a:hover, a:focus {
-	color: #3397db;
+	color: #288dd1;
 	text-decoration: none;
 }
 a img{
@@ -92,7 +92,7 @@ nav h1 a {
 
 /* Add a color to all links inside the list */
 #breadcrumb li a {
-    color: #0275d8;
+    color: #252531;
     text-decoration: none;
 }
 
@@ -137,6 +137,9 @@ nav h1 a {
   width: 200px;
 }
 
+.filter-options select:focus {
+  border: 4px solid #ffa500;
+}
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
   background-color: #f3f3f3;
@@ -164,7 +167,7 @@ nav h1 a {
   display: block;
   margin: 0;
   max-width: 100%;
-  min-height: 248px;
+  min-height: 246px;
   min-width: 100%;
 }
 #restaurants-list li h1 {
@@ -182,7 +185,7 @@ nav h1 a {
   font-size: 11pt;
 }
 #restaurants-list li a {
-  background-color: orange;
+  background-color: #ffa500;
   border-bottom: 3px solid #eee;
   color: #fff;
   display: inline-block;
@@ -291,9 +294,15 @@ nav h1 a {
   padding-top: 6px;
 }
 #restaurant-hours td {
-  color: #666;
+  background-color: #ffffff;
+  border: 2px solid #f3f3f3;
+  overflow: hidden;
+  padding: 18px;
 }
 
+label {
+  visibility: hidden;
+}
 /* ====================== Media Query breakpoint ====================== */
 @media screen and (max-width: 667px){
   .inside {
