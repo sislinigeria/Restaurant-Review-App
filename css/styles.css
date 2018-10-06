@@ -18,7 +18,7 @@ ul, li {
 	color: #333;
 }
 a {
-	color: #e8761a;
+	color: #a30e60;
 	text-decoration: none;
 }
 a:hover, a:focus {
@@ -32,6 +32,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0 0 20px;
 }
+h2 {
+  color:#e93e9c;
+}
 article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -41,8 +44,8 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   width: 100vw;
 }
 #footer {
-  background-color: #444;
-  color: #aaa;
+  background-color: #252831;
+  color: #fff;
   font-size: 8pt;
   letter-spacing: 1px;
   padding: 25px;
@@ -197,6 +200,10 @@ nav h1 a {
   text-transform: uppercase;
 }
 
+label {
+  visibility: none;
+}
+
 /* ====================== Restaurant Details ====================== */
 .inside header {
   position: fixed;
@@ -222,9 +229,10 @@ nav h1 a {
   position: absolute;
   width: 43%;
   margin: 0;
+  color: #e433a9;
 }
 #restaurant-name {
-  color: #f18200;
+  color: #a80878;
   font-family: Arial,sans-serif;
   font-size: 20pt;
   font-weight: 200;
