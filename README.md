@@ -1,31 +1,56 @@
-# Front Eand Web Developer Certification Course
+# Front End Web Developer Nanodegree Course
+## Restaurant Review App - Stage 1
 ---
 
-## Project Overview: Stage 1
+### Table of Contents
 
-The goal of this project is to display the skills on *designing a responsive* web app that function on any device or screen size. Ensuring that the Web App meets accessibility standards.
+* [Project Overview](#project-overview)
+* [Task](#task)
+* [Installation](#installation)
+* [Contributing](#contributing)
+* [License](#license)
+* [Credit](#credit)
 
-### Specification
+## Project Overview:
 
-You have been provided the code for a restaurant reviews website. The code has a lot of issues. It’s barely usable on a desktop browser, much less a mobile device. It also doesn’t include any standard accessibility features, and it doesn’t work offline at all. Your job is to update the code to resolve these issues while still maintaining the included functionality. 
+The goal of this project is to display my skills on **designing a responsive** web app that function on any device or screen size. Ensuring that the Web App meets accessibility standards and can also work offline.
 
-### What do I do from here?
+## Task
+* Make the Website Responsive both on Computer and mobile devices
+* Apply A11y features
+* Using using sw (Service Worker), make the website work
 
-1. In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer. 
+## Installation
+To access this repo locally, follow the steps below;
+*   Download this repo to your local disk
+*   Open Command Prompt
+*   Navigate to the repo folder
+*   Run the Python Server on port 8000 ```py -m http.server 8000 ``` *(If you don't have python in your computer, [Click Here](https://www.python.org/downloads/) to Install it )*
+*   Open your browser (Google Chrome, Edge, etc), in the Web Address box, type  ```localhost:8000``` to open this Web App.
 
-In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
+## Contributing
 
-2. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
-3. Explore the provided code, and start making a plan to implement the required features in three areas: responsive design, accessibility and offline use.
-4. Write code to implement the updates to get this site on its way to being a mobile-ready website.
+This repository is a copy of the master commit in Udacity repository as part of the project of FRONT END WEB NANODEGREE Program. It is a work of a Junior Front End Programmer and reviews are welcomed and should be directed [Here](mailto:sixtus.nnamdi@gmail.com). 
+If you wish to contribute to this project, kindly fork it, and push to a new branch of the master repo https://github.com/sislinigeria/Restaurant-Review-App
 
-## Leaflet.js and Mapbox:
+## License
 
-This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). You need to replace `<your MAPBOX API KEY HERE>` with a token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information. 
+This project was submitted by [Sixtus Nnamdi](www.linkedin.com/in/sixtus-nnamdi) as part of the Front End Web Nanodegree program at Udacity.
 
-### Note about ES6
+As part of Udacity Honor code, your submissions must be your own work, hence submitting this project as yours will cause you to break the Udacity Honor Code and the suspension of your account.
 
-Most of the code in this project has been written to the ES6 JavaScript specification for compatibility with modern web browsers and future proofing JavaScript code. As much as possible, try to maintain use of ES6 in any additional JavaScript you write. 
+Me, the author of the project (*All the basic resources was provided by Udacity, but I made the website responsive using CSS, apply A11y features and install Service Worker in order for the web app to work offline*), allows you to check the code as a reference, but if you submit it, it's your own responsibility if you get expelled.
 
+Besides the above notice, the following license applies and this license notice must be included in all works derived from this project. - 
 
+![Creative Commons](https://openaid.se/wp-content/uploads/2015/03/pdm-cc0-.png)
 
+##  Credit
+
+Credit to this work goes to
+* [Udacity](https://udacity.com)
+* [Introduction to Service Workers](https://www.youtube.com/watch?v=jVfXiv03y5c) - Youtube Video
+* [Form elements must have labels](https://dequeuniversity.com/rules/axe/2.2/label?application=lighthouse)
+* [Viewport units: vw, vh, vmin, vma](https://caniuse.com/#feat=viewport-units)
+* [Viewport Sized Typography](https://css-tricks.com/viewport-sized-typography/) by CHRIS COYIER
+* [Mapbox](https://www.mapbox.com)
