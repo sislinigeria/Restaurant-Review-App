@@ -200,10 +200,6 @@ nav h1 a {
   text-transform: uppercase;
 }
 
-label {
-  visibility: none;
-}
-
 /* ====================== Restaurant Details ====================== */
 .inside header {
   position: fixed;
@@ -308,9 +304,8 @@ label {
   padding: 18px;
 }
 
-/*label {
+label {
   visibility: hidden;
-}*/
 /* ====================== Media Query breakpoint ====================== */
 @media screen and (max-width: 667px){
   .inside {
