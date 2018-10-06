@@ -303,9 +303,10 @@ nav h1 a {
   overflow: hidden;
   padding: 18px;
 }
-
 label {
   visibility: hidden;
+}
+
 /* ====================== Media Query breakpoint ====================== */
 @media screen and (max-width: 667px){
   .inside {
