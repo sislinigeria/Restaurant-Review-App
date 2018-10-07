@@ -8,6 +8,7 @@
 * [Task](#task)
 * [How to Run](#how-to-run)
 * [Contributing](#contributing)
+* [Dependencies](#dependencies)
 * [License](#license)
 * [Credit](#credit)
 
@@ -24,7 +25,7 @@ The goal of this project is to display my skills on **designing a responsive** w
 To access this repo locally, follow the steps below;
    1. Clone the project and unzip the file.
    2. From the project directory, open the command terminal. (In Windows you can simply type ```cmd``` in the search bar and hit enter.)
-   3. Use Python to launch a local client server. You need Python installed. If needed, download it from Python's [website](https://www.python.org/downloads/) and complete installation.
+   3. Use Python to launch a local client server. You need Python installed. If need to, download it from Python's [website](https://www.python.org/downloads/) and complete installation.
    From inside the new directory, launch a local client server using Python from your terminal: 
         * Python 2: ```python -m SimpleHTTPServer 8000```
         * Python 3: ```python3 -m http.server 8000```. Leave the terminal open.
@@ -34,6 +35,10 @@ To access this repo locally, follow the steps below;
 
 This repository is a copy of the master commit in Udacity repository as part of the project of FRONT END WEB NANODEGREE Program. It is a work of a Junior Front End Programmer and reviews are welcomed and should be directed [Here](mailto:sixtus.nnamdi@gmail.com). 
 If you wish to contribute to this project, kindly fork it, and push to a new branch of the master repo https://github.com/sislinigeria/Restaurant-Review-App
+
+## Dependencies
+
+This project uses [Leaflet](https://leafletjs.com/), a JavaScript library for embedding maps, and [Mapbox](https://www.mapbox.com/), an open-source mapping platform that is free to use.
 
 ## License
 
