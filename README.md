@@ -6,7 +6,7 @@
 
 * [Project Overview](#project-overview)
 * [Task](#task)
-* [Installation](#installation)
+* [How to Run](#how-to-run)
 * [Contributing](#contributing)
 * [License](#license)
 * [Credit](#credit)
@@ -16,17 +16,19 @@
 The goal of this project is to display my skills on **designing a responsive** web app that function on any device or screen size. Ensuring that the Web App meets accessibility standards and can also work offline.
 
 ## Task
-* Make the Website Responsive both on Computer and mobile devices
-* Apply A11y features
-* Using using sw (Service Worker), make the website work
+   - [x] Convert a static design to be responsive on different sized displays
+   - [x] Implement a11y features for screen reading use
+   - [x] Add a service worker to begin the process of creating a seamless offline experience for your users.
 
-## Installation
+## How to Run
 To access this repo locally, follow the steps below;
-*   Download this repo to your local disk
-*   Open Command Prompt
-*   Navigate to the repo folder
-*   Run the Python Server on port 8000 ```py -m http.server 8000 ``` *(If you don't have python in your computer, [Click Here](https://www.python.org/downloads/) to Install it )*
-*   Open your browser (Google Chrome, Edge, etc), in the Web Address box, type  ```localhost:8000``` to open this Web App.
+   1. Clone the project and unzip the file.
+   2. From the project directory, open the command terminal. (In Windows you can simply type ```cmd``` in the search bar and hit enter.)
+   3. Use Python to launch a local client server. You need Python installed. If needed, download it from Python's [website](https://www.python.org/downloads/) and complete installation.
+   From inside the new directory, launch a local client server using Python from your terminal: 
+        * Python 2: ```python -m SimpleHTTPServer 8000```
+        * Python 3: ```python3 -m http.server 8000```. Leave the terminal open.
+   4. Visit the site in your browser at http://localhost:8000
 
 ## Contributing
 
