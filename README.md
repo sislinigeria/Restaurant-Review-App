@@ -28,7 +28,7 @@ To access this repo locally, follow the steps below;
    3. Use Python to launch a local client server. You need Python installed. If need to, download it from Python's [website](https://www.python.org/downloads/) and complete installation.
    From inside the new directory, launch a local client server using Python from your terminal: 
         * Python 2: ```python -m SimpleHTTPServer 8000```
-        * Python 3: ```python3 -m http.server 8000```. Leave the terminal open.
+        * Python 3: ```python3 -m http.server 8000``` or ```py -m http.server 8000```. Leave the terminal open.
    4. Visit the site in your browser at http://localhost:8000
 
 ## Contributing
